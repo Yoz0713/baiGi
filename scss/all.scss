@@ -1,0 +1,1430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.normal-page{
+    position: relative;
+    width: 100%;
+    height: 50.7vw;
+    &-bg{
+        width: 100%;
+        height: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 90%;
+        }
+        span{
+            position: absolute;
+            left: 1vw;
+            bottom: 1vw;
+            font-size: 1vw;
+            font-weight: 600;
+            color: #fff;
+        }
+    }
+    &-para{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 2;
+        img{
+            position: absolute;
+        }
+    }
+}
+.swiper-page{
+    width: 100%;
+    height: 50.7vw;
+    .swiper{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        .swiper-wrapper{
+            width: 100%;
+            height: 100%;
+            .swiper-slide{
+                position: relative;
+                width: 100%;
+                height: 100%;
+                .imgBox{
+                    width: 100%;
+                    height: 100%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                 
+                    }
+                    span{
+                        position: absolute;
+                        left: 1vw;
+                        bottom: 1vw;
+                        font-size: 1vw;
+                        font-weight: 600;
+                        color: #fff;
+                    }
+                }
+                .paraBox{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    img{
+                        position: absolute;
+                    }
+                }
+            }
+           
+        }
+        .navigation{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: fit-content;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto 0;
+            padding:1.5vw;
+            z-index: 3;
+            img{
+                width: 3vw;
+                pointer-events: none;
+            }
+            .prev{
+                cursor: pointer;
+                transform: rotateY(180deg);
+            }
+            .next{
+                cursor: pointer;
+            }
+        }
+    }
+}
+.first-page{
+   overflow: hidden;
+   background-color: #000;
+    &-para{
+     
+        & :nth-child(1){
+            position: absolute;
+            left: 18vw;
+            top: 7vw;
+            width: 25vw;
+        }
+        & :nth-child(2){
+            right: 8vw;
+            top: 5vw;
+            width: 38vw;
+        }
+        & :nth-child(3){
+            right: 16vw;
+            top: 12vw;
+            width: 20vw;
+        }
+        & :nth-child(4){
+            right: 12vw;
+            top: 21.5vw;
+            width: 26vw;
+        }
+        & :nth-child(5){
+            right: 15.5vw;
+            top: 26vw;
+            width: 18vw;
+        }
+    }
+}
+.second-page{
+   
+    &-para{
+    
+        img{
+            position: absolute;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+        }
+        & :nth-child(1){
+            bottom: 12vw;
+            width: 70%;
+        }
+        & :nth-child(2){
+            bottom:4vw;
+            width: 77%;
+        }
+    }
+}
+.third-page{
+    &-para{
+        img{
+            position: absolute;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+        }
+       & :nth-child(1){
+            width: 77%;
+       }
+       & :nth-child(2){
+            width: 77%;
+            top: 5vw;
+       }
+    }
+}
+.forth-page{
+    &-para{
+        & :nth-child(1){
+            width: 32vw;
+            left: 2vw;
+            top: 1vw;
+        }
+        & :nth-child(2){
+            width: 40vw;
+            left: 35vw;
+            top: 2vw;
+        }
+    }
+}
+.fifth-page{
+    &-para{
+        img{
+            position: absolute;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+        }
+       & :nth-child(1){
+            width: 77%;
+            top: 0.5vw;
+       }
+       & :nth-child(2){
+            width: 77%;
+            top: 5.5vw;
+       }
+    }
+}
+
+.sixth-page{
+    &-para{
+        & :nth-child(1){
+            width: 40vw;
+            left: 4vw;
+            top: 5vw;
+        }
+        & :nth-child(2){
+            width: 35vw;
+            left: 6.5vw;
+            top: 15vw;
+        }
+    }
+}
+.seventh-page{
+    &-para{
+        img{
+            position: absolute;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+        }
+       & :nth-child(1){
+            width: 70%;
+            top: 2.5vw;
+       }
+     
+    }
+}
+.eighth-page{
+    .swiper{
+        .swiper-wrapper{
+            .slide1{
+                .paraBox{
+                    & :nth-child(1){
+                        left: 26.2vw;
+                        top: 17vw;
+                        width: 25vw;
+                    }
+                    & :nth-child(2){
+                        left:16vw;
+                        top: 25vw;
+                        width: 35vw;
+                    }
+                }
+            }
+            .slide2{
+                .paraBox{
+                    & :nth-child(1){
+                        left: 12vw;
+                        top: 3vw;
+                        width: 38vw;
+                    }
+                    & :nth-child(2){
+                        left: 12vw;
+                        top: 14vw;
+                        width: 42vw;
+                    }
+                }
+            }
+           
+        }
+    }
+}
+.ninth-page{
+    .swiper{
+        .swiper-wrapper{
+            .slide1{
+                .imgBox{
+                    span{
+                        color: #B47B5B;
+                    }
+                }
+                .paraBox{
+                    & :nth-child(1){
+                        right: 14vw;
+                        top: 18.5vw;
+                        width: 16vw;
+                    }
+                    & :nth-child(2){
+                        right: 14vw;
+                        top: 27vw;
+                        width: 23vw;
+                    }
+                }
+            }
+            .slide2{
+                
+                .paraBox{
+                    & :nth-child(1){
+                        right : 11vw;
+                        top: 2vw;
+                        width: 24vw;
+                    }
+                    & :nth-child(2){
+                        right : 11vw;
+                        top: 12vw;
+                        width: 35vw;
+                    }
+                }
+            }
+            .slide3{
+                
+                .paraBox{
+                    & :nth-child(1){
+                        left :8vw;
+                        top: 2vw;
+                        width: 24vw;
+                    }
+                    & :nth-child(2){
+                        left :8vw;
+                        top: 12vw;
+                        width: 35vw;
+                    }
+                }
+            }
+            .slide4{
+                
+                .paraBox{
+                    & :nth-child(1){
+                        right : 11vw;
+                        top: 2vw;
+                        width: 24vw;
+                    }
+                    & :nth-child(2){
+                        right : 11vw;
+                        top: 10vw;
+                        width: 35vw;
+                    }
+                }
+            }
+            .slide5{
+                
+                .paraBox{
+                    & :nth-child(1){
+                        left :8vw;
+                        top: 2vw;
+                        width:24vw;
+                    }
+                    & :nth-child(2){
+                        left :8vw;
+                        top: 10vw;
+                        width: 35vw;
+                    }
+                }
+            }
+            .slide6{
+                
+                .paraBox{
+                    & :nth-child(1){
+                        left :8vw;
+                        top: 2vw;
+                        width: 24vw;
+                    }
+                    & :nth-child(2){
+                        left :8vw;
+                        top: 10.5vw;
+                        width: 35vw;
+                    }
+                }
+            }
+            .slide7{
+                
+                .paraBox{
+                    & :nth-child(1){
+                        right : 11vw;
+                        top: 2vw;
+                        width: 24vw;
+                    }
+                    & :nth-child(2){
+                        right : 11vw;
+                        top: 11vw;
+                        width: 30vw;
+                    }
+                }
+            }
+            .slide15{
+                
+                .paraBox{
+                    & :nth-child(1){
+                        right : 11vw;
+                        top: 2vw;
+                        width: 24vw;
+                    }
+                    & :nth-child(2){
+                        right : 11vw;
+                        top: 12vw;
+                        width: 30vw;
+                    }
+                }
+            }
+            .slide16{
+                
+                .paraBox{
+                    & :nth-child(1){
+                        left :8vw;
+                        top: 2vw;
+                        width: 24vw;
+                    }
+                    & :nth-child(2){
+                        left :8vw;
+                        top: 12vw;
+                        width: 35vw;
+                    }
+                }
+            }
+            .slide17{
+                
+                .paraBox{
+                    & :nth-child(1){
+                        right : 11vw;
+                        top: 2vw;
+                        width: 24vw;
+                    }
+                    & :nth-child(2){
+                        right : 11vw;
+                        top: 12vw;
+                        width: 30vw;
+                    }
+                }
+            }
+        }
+    }
+}
+.tenth-page{
+    .swiper{
+        .swiper-wrapper{
+            .slide1{
+                .imgBox{
+                    span{
+                        color: #B47B5B;
+                    }
+                }
+                .paraBox{
+                    & :nth-child(1){
+                        right: 14vw;
+                        top: 18.5vw;
+                        width: 14vw;
+                    }
+                    & :nth-child(2){
+                        right: 14vw;
+                        top: 27vw;
+                        width: 23vw;
+                    }
+                }
+            }
+            .slide2{
+               
+                .paraBox{
+                    width: 48vw;
+                    height: 100%;
+                    right: 0;
+                    left: auto;
+                    top: 0;
+                    background-color: rgba(255, 255, 255, 0.384);
+                    
+                    & :nth-child(1){
+                        left: 2vw;
+                        top: 0;
+                        bottom: 0;
+                        margin: auto 0;
+                        width: 32vw;
+                    }
+                  
+                }
+            }
+            .slide3{
+               
+                .paraBox{
+                    width: 60vw;
+                    height: 100%;
+                    right: 0;
+                    left: auto;
+                    top: 0;
+                  
+                    
+                    & :nth-child(1){
+                        left: 5vw;
+                        bottom:2vw;
+                        width: 39vw;
+                    }
+                  
+                }
+            }
+            .slide4{
+               
+                .paraBox{
+                    & :nth-child(1){
+                        right: 14vw;
+                        top: 18.5vw;
+                        width: 14vw;
+                    }
+                    & :nth-child(2){
+                        right: 14vw;
+                        top: 27vw;
+                        width: 23vw;
+                    }
+                }
+            }
+            .slide5{
+               
+                .paraBox{
+                    & :nth-child(1){
+                       right: 37vw;
+                        top: 3vw;
+                        width: 32vw;
+                    }
+                    & :nth-child(2){
+                        right: 9vw;
+                        top:4vw;
+                        width: 20vw;
+                    }
+                    & :nth-child(3){
+                        right: 9vw;
+                        top:11vw;
+                        width: 20vw;
+                    }
+                    & :nth-child(4){
+                        right: 9vw;
+                        top:38vw;
+                        width: 20vw;
+                    }
+                }
+            }
+            .slide6{
+                .paraBox{
+                    width: 48vw;
+                    height: 100%;
+                    right: 0;
+                    left: auto;
+                    top: 0;
+                    background-color: rgba(255, 255, 255, 0.384);
+                    & :nth-child(1){
+                        width: 25vw;
+                        top: 4vw;
+                        left: -25vw;
+                    }
+                    & :nth-child(2){
+                        width: 23vw;
+                        top: 2vw;
+                        left: 2.5vw;
+                    }
+                    & :nth-child(3){
+                        width: 75%;
+                        left: 0.6vw;
+                        top:21.5vw;
+                    }
+                }
+            }
+            .slide7{
+                .paraBox{
+                    width: 48vw;
+                    height: 100%;
+                    right: 0;
+                    left: auto;
+                    top: 0;
+                    background-color: rgba(255, 255, 255, 0.384);
+                    & :nth-child(1){
+                        width: 25vw;
+                        top: 4vw;
+                        left: -25vw;
+                    }
+                    & :nth-child(2){
+                        width: 75%;
+                        top: 2vw;
+                        left: 1.5vw;
+                    }
+                    & :nth-child(3){
+                        width: 75%;
+                        left: 1.5vw;
+                        top:13vw;
+                    }
+                }
+            }
+            .slide8{
+                
+                .paraBox{
+                    & :nth-child(1){
+                        right : 11vw;
+                        top: 4.5vw;
+                        width: 24vw;
+                    }
+                    & :nth-child(2){
+                        right : 11vw;
+                        top: 12vw;
+                        width: 30vw;
+                    }
+                }
+            }
+            .slide9{
+                
+                .paraBox{
+                    & :nth-child(1){
+                        left: 0;
+                        right: 0;
+                        margin: 0 auto;
+                        top: 4.5vw;
+                        width: 65%;
+                    }
+                    & :nth-child(2){
+                        bottom: 1.8vw;
+                        left: 18.5vw;
+                        width: 50.5vw;
+                    }
+                }
+            }
+            .slide10{
+                
+                .paraBox{
+                    & :nth-child(1){
+                        right : 11vw;
+                        top: 4.5vw;
+                        width: 28vw;
+                    }
+                    & :nth-child(2){
+                        right : 11vw;
+                        top: 11.5vw;
+                        width: 30vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.twelve-page{
+   
+     &-para{
+        
+         & :nth-child(1){
+             position: absolute;
+             left: 12vw;
+             top: 5vw;
+             width: 45vw;
+            filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+         }
+         & :nth-child(2){
+            left: 20vw;
+            top: 12.5vw;
+             width: 28vw;
+             filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+         }
+       
+     }
+ }
+
+ .thirdteen-page{
+   
+    &-para{
+       
+        & :nth-child(1){
+
+            right:8vw;
+            top: 14vw;
+            width: 32vw;
+           filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+        }
+        & :nth-child(2){
+            right:12vw;
+            top: 19vw;
+            width: 24vw;
+            filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+        }
+        & :nth-child(3){
+            right:10.5vw;
+            top: 23.5vw;
+            width: 25.5vw;
+            filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+        }
+        & :nth-child(4){
+            right:13vw;
+            top: 30vw;
+            width: 22vw;
+            filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+        }
+    }
+}
+.phone{
+    display: none;
+}
+
+@media all and (max-width:1024px){
+
+    .phone{
+        display:block;
+    }
+    .computer{
+        display: none;
+    }
+
+    .normal-page{
+        position: relative;
+        width: 100%;
+        height: 145vw;
+        &-bg{
+            width: 100%;
+            height: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center 100%;
+            }
+            span{
+                position: absolute;
+                left: 2.5vw;
+                bottom: 2vw;
+                font-size: 2.5vw;
+                font-weight: 600;
+                color: #fff;
+            }
+        }
+        &-para{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 2;
+            img{
+                position: absolute;
+            }
+        }
+    }
+    .swiper-page{
+        width: 100%;
+        height:145vw;
+        .swiper{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            .swiper-wrapper{
+                width: 100%;
+                height: 100%;
+                .swiper-slide{
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    .imgBox{
+                        width: 100%;
+                        height: 100%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                     
+                        }
+                        span{
+                            position: absolute;
+                            left: 2.5vw;
+                            bottom: 3vw;
+                            font-size: 2vw;
+                            font-weight: 600;
+                            color: #fff;
+                        }
+                    }
+                    .paraBox{
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 100%;
+                        height: 100%;
+                        img{
+                            position: absolute;
+                        }
+                    }
+                }
+               
+            }
+            .navigation{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                height: fit-content;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                margin: auto 0;
+                padding:2.5vw;
+                z-index: 3;
+                img{
+                    width: 5vw;
+                    pointer-events: none;
+                }
+                .prev{
+                    cursor: pointer;
+                    transform: rotateY(180deg);
+                }
+                .next{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .first-page{
+      
+         &-para{
+                width: 100%;
+             & :nth-child(1){
+                 position: absolute;
+            
+                 top: 6vw;
+                 width: 45vw;
+             }
+             & :nth-child(2){
+        
+                 top: 23vw;
+                 width: 70vw;
+             }
+             & :nth-child(3){
+           
+                 top:37vw;
+                 width: 45vw;
+             }
+             & :nth-child(4){
+        
+                 top: 51vw;
+                 width: 95vw;
+             }
+             & :nth-child(5){
+           
+                 top: 65vw;
+                 width: 60vw;
+             }
+
+             img,svg{
+                left: 0 !important;
+                right: 0 !important;
+                margin: 0 auto;
+             }
+         }
+     }
+     .second-page{
+   
+        &-para{
+        
+            img{
+                position: absolute;
+                right: 0;
+                left: 0;
+                margin: 0 auto;
+            }
+            & :nth-child(3){
+                top: 7vw;
+                width: 55%;
+            }
+            & :nth-child(4){
+                bottom: 8vw;
+                width: 77%;
+            }
+        }
+    }
+    .third-page{
+        height: auto;
+        &-para{
+            img{
+                position: absolute;
+                right: 0;
+                left: 0;
+                margin: 0 auto;
+            }
+           & :nth-child(1){
+                width: 77%;
+           }
+           & :nth-child(2){
+                width: 77%;
+                top: 5vw;
+           }
+        }
+    }
+    .forth-page{
+        height: auto;
+        .normal-page-bg{
+            img{
+                object-position: right center;
+            }
+        }
+        &-para{
+            & :nth-child(1){
+                width: 32vw;
+                left: 2vw;
+                top: 1vw;
+            }
+            & :nth-child(2){
+                width: 40vw;
+                left: 35vw;
+                top: 2vw;
+            }
+        }
+    }
+    .fifth-page{
+        height: auto;
+        &-para{
+            img{
+                position: absolute;
+                right: 0;
+                left: 0;
+                margin: 0 auto;
+            }
+           & :nth-child(1){
+                width: 77%;
+                top: 0.5vw;
+           }
+           & :nth-child(2){
+                width: 77%;
+                top: 5.5vw;
+           }
+        }
+    }
+    .sixth-page{
+        .normal-page-bg{
+            img{
+                object-position: 30% center;
+            }
+        }
+        &-para{
+            & :nth-child(1){
+                width: 40vw;
+                left: 4vw;
+                top: 5vw;
+            }
+            & :nth-child(2){
+                width: 35vw;
+                left: 6.5vw;
+                top: 15vw;
+            }
+        }
+    }
+    .seventh-page{
+        overflow-x: auto;
+        overflow-y: hidden;
+ 
+        .normal-page-bg{
+            width: fit-content;
+            .imgBox{
+                width: fit-content;
+          
+                img{
+                    position: relative;
+                    height: 145vw;
+                    width: auto;
+                    object-fit: contain;
+        
+                }
+            }
+            
+        }
+        &-para{
+       
+            img{
+                position: absolute;
+                right: 0;
+                left: 0;
+                margin: 0 auto;
+            }
+           & :nth-child(1){
+                width: 70%;
+                top: 2.5vw;
+                left: 55vw;
+           }
+         
+        }
+    }
+    .eighth-page{
+        .swiper{
+            .swiper-wrapper{
+                .slide1{
+                    .imgBox{
+                        img{
+                            object-position: 73% center;
+                        }
+                    }
+                    .paraBox{
+                        & :nth-child(1){
+                            left: 26.2vw;
+                            top: 17vw;
+                            width: 25vw;
+                        }
+                        & :nth-child(2){
+                            left:16vw;
+                            top: 25vw;
+                            width: 35vw;
+                        }
+                    }
+                }
+                .slide2{
+                    .imgBox{
+                        img{
+                            object-position: 65% center;
+                        }
+                    }
+                    .paraBox{
+                        & :nth-child(1){
+                            left: 12vw;
+                            top: 3vw;
+                            width: 38vw;
+                        }
+                        & :nth-child(2){
+                            left: 12vw;
+                            top: 14vw;
+                            width: 42vw;
+                        }
+                    }
+                }
+                & :nth-child(5){
+                    .imgBox{
+                        img{
+                            object-position: right center;
+                        }
+                    }
+                }
+               
+            }
+        }
+    }
+    .ninth-page{
+        .swiper{
+            .swiper-wrapper{
+                .slide1{
+                    .imgBox{
+                        span{
+                            color: #B47B5B;
+                            bottom: 81vw;
+                        }
+                    }
+                    .paraBox{
+                        & :nth-child(1){
+                            right: 14vw;
+                            top: 18.5vw;
+                            width: 16vw;
+                        }
+                        & :nth-child(2){
+                            right: 14vw;
+                            top: 27vw;
+                            width: 23vw;
+                        }
+                    }
+                }
+                .slide2{
+                    .imgBox{
+                        img{
+                            object-position: 40% center;
+                        }
+                    }
+                    .paraBox{
+                        & :nth-child(1){
+                            right : 11vw;
+                            top: 2vw;
+                            width: 24vw;
+                        }
+                        & :nth-child(2){
+                            right : 11vw;
+                            top: 12vw;
+                            width: 35vw;
+                        }
+                    }
+                }
+                .slide3{
+                    .imgBox{
+                        img{
+                            object-position: 40% center;
+                        }
+                    }
+                    .paraBox{
+                        & :nth-child(1){
+                            left :8vw;
+                            top: 2vw;
+                            width: 24vw;
+                        }
+                        & :nth-child(2){
+                            left :8vw;
+                            top: 12vw;
+                            width: 35vw;
+                        }
+                    }
+                }
+                .slide4{
+                    
+                    .paraBox{
+                        & :nth-child(1){
+                            right : 11vw;
+                            top: 2vw;
+                            width: 24vw;
+                        }
+                        & :nth-child(2){
+                            right : 11vw;
+                            top: 10vw;
+                            width: 35vw;
+                        }
+                    }
+                }
+                .slide5{
+                    
+                    .paraBox{
+                        & :nth-child(1){
+                            left :8vw;
+                            top: 2vw;
+                            width:24vw;
+                        }
+                        & :nth-child(2){
+                            left :8vw;
+                            top: 10vw;
+                            width: 35vw;
+                        }
+                    }
+                }
+                .slide6{
+                    
+                    .paraBox{
+                        & :nth-child(1){
+                            left :8vw;
+                            top: 2vw;
+                            width: 24vw;
+                        }
+                        & :nth-child(2){
+                            left :8vw;
+                            top: 10.5vw;
+                            width: 35vw;
+                        }
+                    }
+                }
+                .slide7{
+                    
+                    .paraBox{
+                        & :nth-child(1){
+                            right : 11vw;
+                            top: 2vw;
+                            width: 24vw;
+                        }
+                        & :nth-child(2){
+                            right : 11vw;
+                            top: 11vw;
+                            width: 30vw;
+                        }
+                    }
+                }
+                .slide15{
+                    
+                    .paraBox{
+                        & :nth-child(1){
+                            right : 11vw;
+                            top: 2vw;
+                            width: 24vw;
+                        }
+                        & :nth-child(2){
+                            right : 11vw;
+                            top: 12vw;
+                            width: 30vw;
+                        }
+                    }
+                }
+                .slide16{
+                    .imgBox{
+                        img{
+                            object-position: 35% center;
+                        }
+                    }
+                    .paraBox{
+                        & :nth-child(1){
+                            left :8vw;
+                            top: 2vw;
+                            width: 24vw;
+                        }
+                        & :nth-child(2){
+                            left :8vw;
+                            top: 12vw;
+                            width: 35vw;
+                        }
+                    }
+                }
+                .slide17{
+                    .imgBox{
+                        img{
+                            object-position: 55% center;
+                        }
+                    }
+                    .paraBox{
+                        & :nth-child(1){
+                            right : 11vw;
+                            top: 2vw;
+                            width: 24vw;
+                        }
+                        & :nth-child(2){
+                            right : 11vw;
+                            top: 12vw;
+                            width: 30vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .tenth-page{
+        .swiper{
+            .swiper-wrapper{
+                .slide1{
+                    .imgBox{
+                        
+                        span{
+                            color: #B47B5B;
+                            bottom: 81vw;
+                        }
+                    }
+                    .paraBox{
+                        & :nth-child(1){
+                            right: 14vw;
+                            top: 18.5vw;
+                            width: 14vw;
+                        }
+                        & :nth-child(2){
+                            right: 14vw;
+                            top: 27vw;
+                            width: 23vw;
+                        }
+                    }
+                }
+                .slide2{
+                    .imgBox{
+                        img{
+                            object-position: left center;
+                            width: 100%;
+                            height: 66.4vw;
+                        }
+                        span{
+                           
+                            bottom: 81vw;
+                        }
+                    }
+                    .paraBox{
+                        width: 48vw;
+                        height: 100%;
+                        right: 0;
+                        left: auto;
+                        top: 0;
+                        background-color: rgba(255, 255, 255, 0.384);
+                        
+                        & :nth-child(1){
+                            left: 2vw;
+                            top: 0;
+                            bottom: 0;
+                            margin: auto 0;
+                            width: 32vw;
+                        }
+                      
+                    }
+                }
+                .slide3{
+                    .imgBox{
+                        img{
+                            object-position: left center;
+                            width: 100%;
+                            height: 66.4vw;
+                        }
+                        span{
+                           
+                            bottom: 81vw;
+                        }
+                    }
+                    .paraBox{
+                        width: 60vw;
+                        height: 100%;
+                        right: 0;
+                        left: auto;
+                        top: 0;
+                      
+                        
+                        & :nth-child(1){
+                            left: 5vw;
+                            bottom:2vw;
+                            width: 39vw;
+                        }
+                      
+                    }
+                }
+                .slide4{
+               
+                    .paraBox{
+                        & :nth-child(1){
+                            right: 14vw;
+                            top: 18.5vw;
+                            width: 14vw;
+                        }
+                        & :nth-child(2){
+                            right: 14vw;
+                            top: 27vw;
+                            width: 23vw;
+                        }
+                    }
+                }
+                .slide5{
+                   
+                    .paraBox{
+                        & :nth-child(1){
+                           right: 37vw;
+                            top: 3vw;
+                            width: 32vw;
+                        }
+                        & :nth-child(2){
+                            right: 9vw;
+                            top:4vw;
+                            width: 20vw;
+                        }
+                        & :nth-child(3){
+                            right: 9vw;
+                            top:11vw;
+                            width: 20vw;
+                        }
+                        & :nth-child(4){
+                            right: 9vw;
+                            top:38vw;
+                            width: 20vw;
+                        }
+                    }
+                }
+                .slide6{
+                    .paraBox{
+                        width: 48vw;
+                        height: 100%;
+                        right: 0;
+                        left: auto;
+                        top: 0;
+                        background-color: rgba(255, 255, 255, 0.384);
+                        & :nth-child(1){
+                            width: 25vw;
+                            top: 4vw;
+                            left: -25vw;
+                        }
+                        & :nth-child(2){
+                            width: 23vw;
+                            top: 2vw;
+                            left: 2.5vw;
+                        }
+                        & :nth-child(3){
+                            width: 75%;
+                            left: 0.6vw;
+                            top:21.5vw;
+                        }
+                    }
+                }
+                .slide7{
+                    .paraBox{
+                        width: 48vw;
+                        height: 100%;
+                        right: 0;
+                        left: auto;
+                        top: 0;
+                        background-color: rgba(255, 255, 255, 0.384);
+                        & :nth-child(1){
+                            width: 25vw;
+                            top: 4vw;
+                            left: -25vw;
+                        }
+                        & :nth-child(2){
+                            width: 75%;
+                            top: 2vw;
+                            left: 1.5vw;
+                        }
+                        & :nth-child(3){
+                            width: 75%;
+                            left: 1.5vw;
+                            top:13vw;
+                        }
+                    }
+                }
+                .slide8{
+                    
+                    .paraBox{
+                        & :nth-child(1){
+                            right : 11vw;
+                            top: 4.5vw;
+                            width: 24vw;
+                        }
+                        & :nth-child(2){
+                            right : 11vw;
+                            top: 12vw;
+                            width: 30vw;
+                        }
+                    }
+                }
+                .slide9{
+                    
+                    .paraBox{
+                        & :nth-child(1){
+                            left: 0;
+                            right: 0;
+                            margin: 0 auto;
+                            top: 4.5vw;
+                            width: 65%;
+                        }
+                        & :nth-child(2){
+                            bottom: 1.8vw;
+                            left: 18.5vw;
+                            width: 50.5vw;
+                        }
+                    }
+                }
+                .slide10{
+                    
+                    .paraBox{
+                        & :nth-child(1){
+                            right : 11vw;
+                            top: 4.5vw;
+                            width: 28vw;
+                        }
+                        & :nth-child(2){
+                            right : 11vw;
+                            top: 11.5vw;
+                            width: 30vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

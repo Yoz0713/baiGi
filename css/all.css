@@ -1,0 +1,1115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.normal-page {
+  position: relative;
+  width: 100%;
+  height: 50.7vw;
+}
+.normal-page-bg {
+  width: 100%;
+  height: 100%;
+}
+.normal-page-bg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center 90%;
+     object-position: center 90%;
+}
+.normal-page-bg span {
+  position: absolute;
+  left: 1vw;
+  bottom: 1vw;
+  font-size: 1vw;
+  font-weight: 600;
+  color: #fff;
+}
+.normal-page-para {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+.normal-page-para img {
+  position: absolute;
+}
+
+.swiper-page {
+  width: 100%;
+  height: 50.7vw;
+}
+.swiper-page .swiper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.swiper-page .swiper .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-page .swiper .swiper-wrapper .swiper-slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.swiper-page .swiper .swiper-wrapper .swiper-slide .imgBox {
+  width: 100%;
+  height: 100%;
+}
+.swiper-page .swiper .swiper-wrapper .swiper-slide .imgBox img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.swiper-page .swiper .swiper-wrapper .swiper-slide .imgBox span {
+  position: absolute;
+  left: 1vw;
+  bottom: 1vw;
+  font-size: 1vw;
+  font-weight: 600;
+  color: #fff;
+}
+.swiper-page .swiper .swiper-wrapper .swiper-slide .paraBox {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.swiper-page .swiper .swiper-wrapper .swiper-slide .paraBox img {
+  position: absolute;
+}
+.swiper-page .swiper .navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  padding: 1.5vw;
+  z-index: 3;
+}
+.swiper-page .swiper .navigation img {
+  width: 3vw;
+  pointer-events: none;
+}
+.swiper-page .swiper .navigation .prev {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+.swiper-page .swiper .navigation .next {
+  cursor: pointer;
+}
+
+.first-page {
+  overflow: hidden;
+  background-color: #000;
+}
+.first-page-para :nth-child(1) {
+  position: absolute;
+  left: 18vw;
+  top: 7vw;
+  width: 25vw;
+}
+.first-page-para :nth-child(2) {
+  right: 8vw;
+  top: 5vw;
+  width: 38vw;
+}
+.first-page-para :nth-child(3) {
+  right: 16vw;
+  top: 12vw;
+  width: 20vw;
+}
+.first-page-para :nth-child(4) {
+  right: 12vw;
+  top: 21.5vw;
+  width: 26vw;
+}
+.first-page-para :nth-child(5) {
+  right: 15.5vw;
+  top: 26vw;
+  width: 18vw;
+}
+
+.second-page-para img {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+.second-page-para :nth-child(1) {
+  bottom: 12vw;
+  width: 70%;
+}
+.second-page-para :nth-child(2) {
+  bottom: 4vw;
+  width: 77%;
+}
+
+.third-page-para img {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+.third-page-para :nth-child(1) {
+  width: 77%;
+}
+.third-page-para :nth-child(2) {
+  width: 77%;
+  top: 5vw;
+}
+
+.forth-page-para :nth-child(1) {
+  width: 32vw;
+  left: 2vw;
+  top: 1vw;
+}
+.forth-page-para :nth-child(2) {
+  width: 40vw;
+  left: 35vw;
+  top: 2vw;
+}
+
+.fifth-page-para img {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+.fifth-page-para :nth-child(1) {
+  width: 77%;
+  top: 0.5vw;
+}
+.fifth-page-para :nth-child(2) {
+  width: 77%;
+  top: 5.5vw;
+}
+
+.sixth-page-para :nth-child(1) {
+  width: 40vw;
+  left: 4vw;
+  top: 5vw;
+}
+.sixth-page-para :nth-child(2) {
+  width: 35vw;
+  left: 6.5vw;
+  top: 15vw;
+}
+
+.seventh-page-para img {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+.seventh-page-para :nth-child(1) {
+  width: 70%;
+  top: 2.5vw;
+}
+
+.eighth-page .swiper .swiper-wrapper .slide1 .paraBox :nth-child(1) {
+  left: 26.2vw;
+  top: 17vw;
+  width: 25vw;
+}
+.eighth-page .swiper .swiper-wrapper .slide1 .paraBox :nth-child(2) {
+  left: 16vw;
+  top: 25vw;
+  width: 35vw;
+}
+.eighth-page .swiper .swiper-wrapper .slide2 .paraBox :nth-child(1) {
+  left: 12vw;
+  top: 3vw;
+  width: 38vw;
+}
+.eighth-page .swiper .swiper-wrapper .slide2 .paraBox :nth-child(2) {
+  left: 12vw;
+  top: 14vw;
+  width: 42vw;
+}
+
+.ninth-page .swiper .swiper-wrapper .slide1 .imgBox span {
+  color: #B47B5B;
+}
+.ninth-page .swiper .swiper-wrapper .slide1 .paraBox :nth-child(1) {
+  right: 14vw;
+  top: 18.5vw;
+  width: 16vw;
+}
+.ninth-page .swiper .swiper-wrapper .slide1 .paraBox :nth-child(2) {
+  right: 14vw;
+  top: 27vw;
+  width: 23vw;
+}
+.ninth-page .swiper .swiper-wrapper .slide2 .paraBox :nth-child(1) {
+  right: 11vw;
+  top: 2vw;
+  width: 24vw;
+}
+.ninth-page .swiper .swiper-wrapper .slide2 .paraBox :nth-child(2) {
+  right: 11vw;
+  top: 12vw;
+  width: 35vw;
+}
+.ninth-page .swiper .swiper-wrapper .slide3 .paraBox :nth-child(1) {
+  left: 8vw;
+  top: 2vw;
+  width: 24vw;
+}
+.ninth-page .swiper .swiper-wrapper .slide3 .paraBox :nth-child(2) {
+  left: 8vw;
+  top: 12vw;
+  width: 35vw;
+}
+.ninth-page .swiper .swiper-wrapper .slide4 .paraBox :nth-child(1) {
+  right: 11vw;
+  top: 2vw;
+  width: 24vw;
+}
+.ninth-page .swiper .swiper-wrapper .slide4 .paraBox :nth-child(2) {
+  right: 11vw;
+  top: 10vw;
+  width: 35vw;
+}
+.ninth-page .swiper .swiper-wrapper .slide5 .paraBox :nth-child(1) {
+  left: 8vw;
+  top: 2vw;
+  width: 24vw;
+}
+.ninth-page .swiper .swiper-wrapper .slide5 .paraBox :nth-child(2) {
+  left: 8vw;
+  top: 10vw;
+  width: 35vw;
+}
+.ninth-page .swiper .swiper-wrapper .slide6 .paraBox :nth-child(1) {
+  left: 8vw;
+  top: 2vw;
+  width: 24vw;
+}
+.ninth-page .swiper .swiper-wrapper .slide6 .paraBox :nth-child(2) {
+  left: 8vw;
+  top: 10.5vw;
+  width: 35vw;
+}
+.ninth-page .swiper .swiper-wrapper .slide7 .paraBox :nth-child(1) {
+  right: 11vw;
+  top: 2vw;
+  width: 24vw;
+}
+.ninth-page .swiper .swiper-wrapper .slide7 .paraBox :nth-child(2) {
+  right: 11vw;
+  top: 11vw;
+  width: 30vw;
+}
+.ninth-page .swiper .swiper-wrapper .slide15 .paraBox :nth-child(1) {
+  right: 11vw;
+  top: 2vw;
+  width: 24vw;
+}
+.ninth-page .swiper .swiper-wrapper .slide15 .paraBox :nth-child(2) {
+  right: 11vw;
+  top: 12vw;
+  width: 30vw;
+}
+.ninth-page .swiper .swiper-wrapper .slide16 .paraBox :nth-child(1) {
+  left: 8vw;
+  top: 2vw;
+  width: 24vw;
+}
+.ninth-page .swiper .swiper-wrapper .slide16 .paraBox :nth-child(2) {
+  left: 8vw;
+  top: 12vw;
+  width: 35vw;
+}
+.ninth-page .swiper .swiper-wrapper .slide17 .paraBox :nth-child(1) {
+  right: 11vw;
+  top: 2vw;
+  width: 24vw;
+}
+.ninth-page .swiper .swiper-wrapper .slide17 .paraBox :nth-child(2) {
+  right: 11vw;
+  top: 12vw;
+  width: 30vw;
+}
+
+.tenth-page .swiper .swiper-wrapper .slide1 .imgBox span {
+  color: #B47B5B;
+}
+.tenth-page .swiper .swiper-wrapper .slide1 .paraBox :nth-child(1) {
+  right: 14vw;
+  top: 18.5vw;
+  width: 14vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide1 .paraBox :nth-child(2) {
+  right: 14vw;
+  top: 27vw;
+  width: 23vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide2 .paraBox {
+  width: 48vw;
+  height: 100%;
+  right: 0;
+  left: auto;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.384);
+}
+.tenth-page .swiper .swiper-wrapper .slide2 .paraBox :nth-child(1) {
+  left: 2vw;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  width: 32vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide3 .paraBox {
+  width: 60vw;
+  height: 100%;
+  right: 0;
+  left: auto;
+  top: 0;
+}
+.tenth-page .swiper .swiper-wrapper .slide3 .paraBox :nth-child(1) {
+  left: 5vw;
+  bottom: 2vw;
+  width: 39vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide4 .paraBox :nth-child(1) {
+  right: 14vw;
+  top: 18.5vw;
+  width: 14vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide4 .paraBox :nth-child(2) {
+  right: 14vw;
+  top: 27vw;
+  width: 23vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide5 .paraBox :nth-child(1) {
+  right: 37vw;
+  top: 3vw;
+  width: 32vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide5 .paraBox :nth-child(2) {
+  right: 9vw;
+  top: 4vw;
+  width: 20vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide5 .paraBox :nth-child(3) {
+  right: 9vw;
+  top: 11vw;
+  width: 20vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide5 .paraBox :nth-child(4) {
+  right: 9vw;
+  top: 38vw;
+  width: 20vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide6 .paraBox {
+  width: 48vw;
+  height: 100%;
+  right: 0;
+  left: auto;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.384);
+}
+.tenth-page .swiper .swiper-wrapper .slide6 .paraBox :nth-child(1) {
+  width: 25vw;
+  top: 4vw;
+  left: -25vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide6 .paraBox :nth-child(2) {
+  width: 23vw;
+  top: 2vw;
+  left: 2.5vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide6 .paraBox :nth-child(3) {
+  width: 75%;
+  left: 0.6vw;
+  top: 21.5vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide7 .paraBox {
+  width: 48vw;
+  height: 100%;
+  right: 0;
+  left: auto;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.384);
+}
+.tenth-page .swiper .swiper-wrapper .slide7 .paraBox :nth-child(1) {
+  width: 25vw;
+  top: 4vw;
+  left: -25vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide7 .paraBox :nth-child(2) {
+  width: 75%;
+  top: 2vw;
+  left: 1.5vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide7 .paraBox :nth-child(3) {
+  width: 75%;
+  left: 1.5vw;
+  top: 13vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide8 .paraBox :nth-child(1) {
+  right: 11vw;
+  top: 4.5vw;
+  width: 24vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide8 .paraBox :nth-child(2) {
+  right: 11vw;
+  top: 12vw;
+  width: 30vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide9 .paraBox :nth-child(1) {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 4.5vw;
+  width: 65%;
+}
+.tenth-page .swiper .swiper-wrapper .slide9 .paraBox :nth-child(2) {
+  bottom: 1.8vw;
+  left: 18.5vw;
+  width: 50.5vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide10 .paraBox :nth-child(1) {
+  right: 11vw;
+  top: 4.5vw;
+  width: 28vw;
+}
+.tenth-page .swiper .swiper-wrapper .slide10 .paraBox :nth-child(2) {
+  right: 11vw;
+  top: 11.5vw;
+  width: 30vw;
+}
+
+.twelve-page-para :nth-child(1) {
+  position: absolute;
+  left: 12vw;
+  top: 5vw;
+  width: 45vw;
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+}
+.twelve-page-para :nth-child(2) {
+  left: 20vw;
+  top: 12.5vw;
+  width: 28vw;
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+}
+
+.thirdteen-page-para :nth-child(1) {
+  right: 8vw;
+  top: 14vw;
+  width: 32vw;
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+}
+.thirdteen-page-para :nth-child(2) {
+  right: 12vw;
+  top: 19vw;
+  width: 24vw;
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+}
+.thirdteen-page-para :nth-child(3) {
+  right: 10.5vw;
+  top: 23.5vw;
+  width: 25.5vw;
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+}
+.thirdteen-page-para :nth-child(4) {
+  right: 13vw;
+  top: 30vw;
+  width: 22vw;
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+}
+
+.phone {
+  display: none;
+}
+
+@media all and (max-width: 1024px) {
+  .phone {
+    display: block;
+  }
+  .computer {
+    display: none;
+  }
+  .normal-page {
+    position: relative;
+    width: 100%;
+    height: 145vw;
+  }
+  .normal-page-bg {
+    width: 100%;
+    height: 100%;
+  }
+  .normal-page-bg img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center 100%;
+       object-position: center 100%;
+  }
+  .normal-page-bg span {
+    position: absolute;
+    left: 2.5vw;
+    bottom: 2vw;
+    font-size: 2.5vw;
+    font-weight: 600;
+    color: #fff;
+  }
+  .normal-page-para {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+  }
+  .normal-page-para img {
+    position: absolute;
+  }
+  .swiper-page {
+    width: 100%;
+    height: 145vw;
+  }
+  .swiper-page .swiper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .swiper-page .swiper .swiper-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-page .swiper .swiper-wrapper .swiper-slide {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-page .swiper .swiper-wrapper .swiper-slide .imgBox {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-page .swiper .swiper-wrapper .swiper-slide .imgBox img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .swiper-page .swiper .swiper-wrapper .swiper-slide .imgBox span {
+    position: absolute;
+    left: 2.5vw;
+    bottom: 3vw;
+    font-size: 2vw;
+    font-weight: 600;
+    color: #fff;
+  }
+  .swiper-page .swiper .swiper-wrapper .swiper-slide .paraBox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-page .swiper .swiper-wrapper .swiper-slide .paraBox img {
+    position: absolute;
+  }
+  .swiper-page .swiper .navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    padding: 2.5vw;
+    z-index: 3;
+  }
+  .swiper-page .swiper .navigation img {
+    width: 5vw;
+    pointer-events: none;
+  }
+  .swiper-page .swiper .navigation .prev {
+    cursor: pointer;
+    transform: rotateY(180deg);
+  }
+  .swiper-page .swiper .navigation .next {
+    cursor: pointer;
+  }
+  .first-page-para {
+    width: 100%;
+  }
+  .first-page-para :nth-child(1) {
+    position: absolute;
+    top: 6vw;
+    width: 45vw;
+  }
+  .first-page-para :nth-child(2) {
+    top: 23vw;
+    width: 70vw;
+  }
+  .first-page-para :nth-child(3) {
+    top: 37vw;
+    width: 45vw;
+  }
+  .first-page-para :nth-child(4) {
+    top: 51vw;
+    width: 95vw;
+  }
+  .first-page-para :nth-child(5) {
+    top: 65vw;
+    width: 60vw;
+  }
+  .first-page-para img, .first-page-para svg {
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto;
+  }
+  .second-page-para img {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+  .second-page-para :nth-child(3) {
+    top: 7vw;
+    width: 55%;
+  }
+  .second-page-para :nth-child(4) {
+    bottom: 8vw;
+    width: 77%;
+  }
+  .third-page {
+    height: auto;
+  }
+  .third-page-para img {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+  .third-page-para :nth-child(1) {
+    width: 77%;
+  }
+  .third-page-para :nth-child(2) {
+    width: 77%;
+    top: 5vw;
+  }
+  .forth-page {
+    height: auto;
+  }
+  .forth-page .normal-page-bg img {
+    -o-object-position: right center;
+       object-position: right center;
+  }
+  .forth-page-para :nth-child(1) {
+    width: 32vw;
+    left: 2vw;
+    top: 1vw;
+  }
+  .forth-page-para :nth-child(2) {
+    width: 40vw;
+    left: 35vw;
+    top: 2vw;
+  }
+  .fifth-page {
+    height: auto;
+  }
+  .fifth-page-para img {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+  .fifth-page-para :nth-child(1) {
+    width: 77%;
+    top: 0.5vw;
+  }
+  .fifth-page-para :nth-child(2) {
+    width: 77%;
+    top: 5.5vw;
+  }
+  .sixth-page .normal-page-bg img {
+    -o-object-position: 30% center;
+       object-position: 30% center;
+  }
+  .sixth-page-para :nth-child(1) {
+    width: 40vw;
+    left: 4vw;
+    top: 5vw;
+  }
+  .sixth-page-para :nth-child(2) {
+    width: 35vw;
+    left: 6.5vw;
+    top: 15vw;
+  }
+  .seventh-page {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .seventh-page .normal-page-bg {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .seventh-page .normal-page-bg .imgBox {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .seventh-page .normal-page-bg .imgBox img {
+    position: relative;
+    height: 145vw;
+    width: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .seventh-page-para img {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+  .seventh-page-para :nth-child(1) {
+    width: 70%;
+    top: 2.5vw;
+    left: 55vw;
+  }
+  .eighth-page .swiper .swiper-wrapper .slide1 .imgBox img {
+    -o-object-position: 73% center;
+       object-position: 73% center;
+  }
+  .eighth-page .swiper .swiper-wrapper .slide1 .paraBox :nth-child(1) {
+    left: 26.2vw;
+    top: 17vw;
+    width: 25vw;
+  }
+  .eighth-page .swiper .swiper-wrapper .slide1 .paraBox :nth-child(2) {
+    left: 16vw;
+    top: 25vw;
+    width: 35vw;
+  }
+  .eighth-page .swiper .swiper-wrapper .slide2 .imgBox img {
+    -o-object-position: 65% center;
+       object-position: 65% center;
+  }
+  .eighth-page .swiper .swiper-wrapper .slide2 .paraBox :nth-child(1) {
+    left: 12vw;
+    top: 3vw;
+    width: 38vw;
+  }
+  .eighth-page .swiper .swiper-wrapper .slide2 .paraBox :nth-child(2) {
+    left: 12vw;
+    top: 14vw;
+    width: 42vw;
+  }
+  .eighth-page .swiper .swiper-wrapper :nth-child(5) .imgBox img {
+    -o-object-position: right center;
+       object-position: right center;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide1 .imgBox span {
+    color: #B47B5B;
+    bottom: 81vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide1 .paraBox :nth-child(1) {
+    right: 14vw;
+    top: 18.5vw;
+    width: 16vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide1 .paraBox :nth-child(2) {
+    right: 14vw;
+    top: 27vw;
+    width: 23vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide2 .imgBox img {
+    -o-object-position: 40% center;
+       object-position: 40% center;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide2 .paraBox :nth-child(1) {
+    right: 11vw;
+    top: 2vw;
+    width: 24vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide2 .paraBox :nth-child(2) {
+    right: 11vw;
+    top: 12vw;
+    width: 35vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide3 .imgBox img {
+    -o-object-position: 40% center;
+       object-position: 40% center;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide3 .paraBox :nth-child(1) {
+    left: 8vw;
+    top: 2vw;
+    width: 24vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide3 .paraBox :nth-child(2) {
+    left: 8vw;
+    top: 12vw;
+    width: 35vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide4 .paraBox :nth-child(1) {
+    right: 11vw;
+    top: 2vw;
+    width: 24vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide4 .paraBox :nth-child(2) {
+    right: 11vw;
+    top: 10vw;
+    width: 35vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide5 .paraBox :nth-child(1) {
+    left: 8vw;
+    top: 2vw;
+    width: 24vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide5 .paraBox :nth-child(2) {
+    left: 8vw;
+    top: 10vw;
+    width: 35vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide6 .paraBox :nth-child(1) {
+    left: 8vw;
+    top: 2vw;
+    width: 24vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide6 .paraBox :nth-child(2) {
+    left: 8vw;
+    top: 10.5vw;
+    width: 35vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide7 .paraBox :nth-child(1) {
+    right: 11vw;
+    top: 2vw;
+    width: 24vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide7 .paraBox :nth-child(2) {
+    right: 11vw;
+    top: 11vw;
+    width: 30vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide15 .paraBox :nth-child(1) {
+    right: 11vw;
+    top: 2vw;
+    width: 24vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide15 .paraBox :nth-child(2) {
+    right: 11vw;
+    top: 12vw;
+    width: 30vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide16 .imgBox img {
+    -o-object-position: 35% center;
+       object-position: 35% center;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide16 .paraBox :nth-child(1) {
+    left: 8vw;
+    top: 2vw;
+    width: 24vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide16 .paraBox :nth-child(2) {
+    left: 8vw;
+    top: 12vw;
+    width: 35vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide17 .imgBox img {
+    -o-object-position: 55% center;
+       object-position: 55% center;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide17 .paraBox :nth-child(1) {
+    right: 11vw;
+    top: 2vw;
+    width: 24vw;
+  }
+  .ninth-page .swiper .swiper-wrapper .slide17 .paraBox :nth-child(2) {
+    right: 11vw;
+    top: 12vw;
+    width: 30vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide1 .imgBox span {
+    color: #B47B5B;
+    bottom: 81vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide1 .paraBox :nth-child(1) {
+    right: 14vw;
+    top: 18.5vw;
+    width: 14vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide1 .paraBox :nth-child(2) {
+    right: 14vw;
+    top: 27vw;
+    width: 23vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide2 .imgBox img {
+    -o-object-position: left center;
+       object-position: left center;
+    width: 100%;
+    height: 66.4vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide2 .imgBox span {
+    bottom: 81vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide2 .paraBox {
+    width: 48vw;
+    height: 100%;
+    right: 0;
+    left: auto;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.384);
+  }
+  .tenth-page .swiper .swiper-wrapper .slide2 .paraBox :nth-child(1) {
+    left: 2vw;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 32vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide3 .imgBox img {
+    -o-object-position: left center;
+       object-position: left center;
+    width: 100%;
+    height: 66.4vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide3 .imgBox span {
+    bottom: 81vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide3 .paraBox {
+    width: 60vw;
+    height: 100%;
+    right: 0;
+    left: auto;
+    top: 0;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide3 .paraBox :nth-child(1) {
+    left: 5vw;
+    bottom: 2vw;
+    width: 39vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide4 .paraBox :nth-child(1) {
+    right: 14vw;
+    top: 18.5vw;
+    width: 14vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide4 .paraBox :nth-child(2) {
+    right: 14vw;
+    top: 27vw;
+    width: 23vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide5 .paraBox :nth-child(1) {
+    right: 37vw;
+    top: 3vw;
+    width: 32vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide5 .paraBox :nth-child(2) {
+    right: 9vw;
+    top: 4vw;
+    width: 20vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide5 .paraBox :nth-child(3) {
+    right: 9vw;
+    top: 11vw;
+    width: 20vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide5 .paraBox :nth-child(4) {
+    right: 9vw;
+    top: 38vw;
+    width: 20vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide6 .paraBox {
+    width: 48vw;
+    height: 100%;
+    right: 0;
+    left: auto;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.384);
+  }
+  .tenth-page .swiper .swiper-wrapper .slide6 .paraBox :nth-child(1) {
+    width: 25vw;
+    top: 4vw;
+    left: -25vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide6 .paraBox :nth-child(2) {
+    width: 23vw;
+    top: 2vw;
+    left: 2.5vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide6 .paraBox :nth-child(3) {
+    width: 75%;
+    left: 0.6vw;
+    top: 21.5vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide7 .paraBox {
+    width: 48vw;
+    height: 100%;
+    right: 0;
+    left: auto;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.384);
+  }
+  .tenth-page .swiper .swiper-wrapper .slide7 .paraBox :nth-child(1) {
+    width: 25vw;
+    top: 4vw;
+    left: -25vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide7 .paraBox :nth-child(2) {
+    width: 75%;
+    top: 2vw;
+    left: 1.5vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide7 .paraBox :nth-child(3) {
+    width: 75%;
+    left: 1.5vw;
+    top: 13vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide8 .paraBox :nth-child(1) {
+    right: 11vw;
+    top: 4.5vw;
+    width: 24vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide8 .paraBox :nth-child(2) {
+    right: 11vw;
+    top: 12vw;
+    width: 30vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide9 .paraBox :nth-child(1) {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 4.5vw;
+    width: 65%;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide9 .paraBox :nth-child(2) {
+    bottom: 1.8vw;
+    left: 18.5vw;
+    width: 50.5vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide10 .paraBox :nth-child(1) {
+    right: 11vw;
+    top: 4.5vw;
+    width: 28vw;
+  }
+  .tenth-page .swiper .swiper-wrapper .slide10 .paraBox :nth-child(2) {
+    right: 11vw;
+    top: 11.5vw;
+    width: 30vw;
+  }
+}
