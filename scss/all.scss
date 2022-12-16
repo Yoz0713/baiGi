@@ -309,6 +309,7 @@
                 }
                 .paraBox{
                     & :nth-child(1){
+                        filter:none;
                         right: 14vw;
                         top: 18.5vw;
                         width: 16vw;
@@ -476,6 +477,7 @@
                 }
                 .paraBox{
                     & :nth-child(1){
+                        filter:none;
                         right: 14vw;
                         top: 18.5vw;
                         width: 14vw;
