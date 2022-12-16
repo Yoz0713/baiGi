@@ -95,13 +95,16 @@
             margin: auto 0;
             padding:1.5vw;
             z-index: 3;
-            img{
-                width: 3vw;
+            span{
+                font-size: 3vw;
+                color: #fff;
+                font-weight: 900;
+                filter: drop-shadow(0 0 4px #000);
                 pointer-events: none;
             }
             .prev{
                 cursor: pointer;
-                transform: rotateY(180deg);
+                
             }
             .next{
                 cursor: pointer;
@@ -155,6 +158,7 @@
         & :nth-child(1){
             bottom: 12vw;
             width: 70%;
+            filter: drop-shadow(0 0 4px #000);
         }
         & :nth-child(2){
             bottom:4vw;
@@ -172,6 +176,7 @@
         }
        & :nth-child(1){
             width: 77%;
+            filter: drop-shadow(0 0 4px #000);
        }
        & :nth-child(2){
             width: 77%;
@@ -185,6 +190,7 @@
             width: 32vw;
             left: 2vw;
             top: 1vw;
+            filter: drop-shadow(0 0 4px #000);
         }
         & :nth-child(2){
             width: 40vw;
@@ -200,6 +206,7 @@
             right: 0;
             left: 0;
             margin: 0 auto;
+            filter: drop-shadow(0 0 4px #000);
         }
        & :nth-child(1){
             width: 77%;
@@ -218,6 +225,7 @@
             width: 40vw;
             left: 4vw;
             top: 5vw;
+            filter: drop-shadow(0 0 4px #000);
         }
         & :nth-child(2){
             width: 35vw;
@@ -738,7 +746,7 @@
     }
     .swiper-page{
         width: 100%;
-        height:145vw;
+        height:148vw;
         .swiper{
             width: 100%;
             height: 100%;
@@ -769,6 +777,7 @@
                         }
                     }
                     .paraBox{
+                        display: none;
                         position: absolute;
                         left: 0;
                         top: 0;
@@ -792,13 +801,13 @@
                 margin: auto 0;
                 padding:2.5vw;
                 z-index: 3;
-                img{
-                    width: 5vw;
+                span{
+                    font-size: 7vw;
                     pointer-events: none;
                 }
                 .prev{
                     cursor: pointer;
-                    transform: rotateY(180deg);
+                  
                 }
                 .next{
                     cursor: pointer;
@@ -874,12 +883,16 @@
                 left: 0;
                 margin: 0 auto;
             }
-           & :nth-child(1){
-                width: 77%;
-           }
-           & :nth-child(2){
-                width: 77%;
+           & :nth-child(3){
+                width: 85%;
                 top: 5vw;
+           }
+           & :nth-child(4){
+                width: 85%;
+                top: 28vw;
+                background-color: #fff;
+                padding: 4vw 1vw 5vw;
+                border-radius: 40px;
            }
         }
     }
@@ -892,14 +905,14 @@
         }
         &-para{
             & :nth-child(1){
-                width: 32vw;
+                width: 50vw;
                 left: 2vw;
-                top: 1vw;
+                top: 6vw;
             }
-            & :nth-child(2){
-                width: 40vw;
-                left: 35vw;
-                top: 2vw;
+            & :nth-child(3){
+                width: 60vw;
+                left:4.5vw;
+                top: 35vw;
             }
         }
     }
@@ -912,13 +925,16 @@
                 left: 0;
                 margin: 0 auto;
             }
-           & :nth-child(1){
-                width: 77%;
-                top: 0.5vw;
+           & :nth-child(3){
+                width:45%;
+                top: 3vw;
            }
-           & :nth-child(2){
-                width: 77%;
-                top: 5.5vw;
+           & :nth-child(4){
+                width: 90%;
+                top: 35vw;
+                background-color: #fff;
+                padding: 4vw 3vw 4vw;
+                border-radius: 40px;
            }
         }
     }
@@ -929,15 +945,24 @@
             }
         }
         &-para{
-            & :nth-child(1){
-                width: 40vw;
-                left: 4vw;
-                top: 5vw;
+            img{
+                left: 0;
+                right: 0;
+                margin: auto;
             }
-            & :nth-child(2){
-                width: 35vw;
-                left: 6.5vw;
-                top: 15vw;
+            & :nth-child(1){
+                left: 0;
+                right: 0;
+                margin: auto;
+                width: 85%;
+                top: 10vw;
+            }
+            & :nth-child(3){
+                width: 90%;
+                top: 35vw;
+                background-color: rgba(255, 255, 255, 0.589);
+                padding: 4vw 5vw 4vw;
+                border-radius: 40px;
             }
         }
     }
@@ -968,11 +993,17 @@
                 left: 0;
                 margin: 0 auto;
             }
-           & :nth-child(1){
+           & :nth-child(2){
                 width: 70%;
-                top: 2.5vw;
-                left: 55vw;
+                top: 8vw;
+                left: 57vw;
            }
+           & :nth-child(3){
+            width: 61%;
+            top: 20vw;
+            left: 57vw;
+            filter: drop-shadow(0 0 4px #000);
+       }
          
         }
     }
@@ -986,15 +1017,19 @@
                         }
                     }
                     .paraBox{
-                        & :nth-child(1){
-                            left: 26.2vw;
-                            top: 17vw;
-                            width: 25vw;
+                        display: block;
+                        & :nth-child(3){
+                            left:3vw;
+                            top: 6vw;
+                            width: 60%;
                         }
-                        & :nth-child(2){
-                            left:16vw;
-                            top: 25vw;
-                            width: 35vw;
+                        & :nth-child(4){
+                            left:3vw;
+                            top: 30vw;
+                            width: 45vw;
+                            background-color: rgba(255, 255, 255, 0.548);
+                            padding: 5vw;
+                            border-radius: 40px;
                         }
                     }
                 }
@@ -1039,15 +1074,22 @@
                         }
                     }
                     .paraBox{
-                        & :nth-child(1){
-                            right: 14vw;
-                            top: 18.5vw;
-                            width: 16vw;
+                        display: block;
+                        & :nth-child(3){
+                            left: 0;
+                            right: 0;
+                            margin: 0 auto;
+                      
+                            top:80vw;
+                            width: 40vw;
                         }
-                        & :nth-child(2){
-                            right: 14vw;
-                            top: 27vw;
-                            width: 23vw;
+                        & :nth-child(4){
+                            left: 0;
+                            right: 0;
+                            margin: 0 auto;
+                         
+                            top: 105vw;
+                            width:60vw;
                         }
                     }
                 }
@@ -1208,6 +1250,16 @@
     .tenth-page{
         .swiper{
             .swiper-wrapper{
+                .swiper-slide{
+                    .imgBox{
+                        span{
+                            bottom: 88vw;
+                        }
+                        .span{
+                            display: none;
+                        }
+                    }
+                }
                 .slide1{
                     .imgBox{
                         
@@ -1217,214 +1269,778 @@
                         }
                     }
                     .paraBox{
-                        & :nth-child(1){
-                            right: 14vw;
-                            top: 18.5vw;
-                            width: 14vw;
-                        }
-                        & :nth-child(2){
-                            right: 14vw;
-                            top: 27vw;
-                            width: 23vw;
-                        }
-                    }
-                }
-                .slide2{
-                    .imgBox{
-                        img{
-                            object-position: left center;
-                            width: 100%;
-                            height: 66.4vw;
-                        }
-                        span{
-                           
-                            bottom: 81vw;
-                        }
-                    }
-                    .paraBox{
-                        width: 48vw;
-                        height: 100%;
-                        right: 0;
-                        left: auto;
-                        top: 0;
-                        background-color: rgba(255, 255, 255, 0.384);
-                        
-                        & :nth-child(1){
-                            left: 2vw;
-                            top: 0;
-                            bottom: 0;
-                            margin: auto 0;
-                            width: 32vw;
-                        }
-                      
-                    }
-                }
-                .slide3{
-                    .imgBox{
-                        img{
-                            object-position: left center;
-                            width: 100%;
-                            height: 66.4vw;
-                        }
-                        span{
-                           
-                            bottom: 81vw;
-                        }
-                    }
-                    .paraBox{
-                        width: 60vw;
-                        height: 100%;
-                        right: 0;
-                        left: auto;
-                        top: 0;
-                      
-                        
-                        & :nth-child(1){
-                            left: 5vw;
-                            bottom:2vw;
-                            width: 39vw;
-                        }
-                      
-                    }
-                }
-                .slide4{
-               
-                    .paraBox{
-                        & :nth-child(1){
-                            right: 14vw;
-                            top: 18.5vw;
-                            width: 14vw;
-                        }
-                        & :nth-child(2){
-                            right: 14vw;
-                            top: 27vw;
-                            width: 23vw;
-                        }
-                    }
-                }
-                .slide5{
-                   
-                    .paraBox{
-                        & :nth-child(1){
-                           right: 37vw;
-                            top: 3vw;
-                            width: 32vw;
-                        }
-                        & :nth-child(2){
-                            right: 9vw;
-                            top:4vw;
-                            width: 20vw;
-                        }
+                        display: block;
                         & :nth-child(3){
-                            right: 9vw;
-                            top:11vw;
-                            width: 20vw;
-                        }
-                        & :nth-child(4){
-                            right: 9vw;
-                            top:38vw;
-                            width: 20vw;
-                        }
-                    }
-                }
-                .slide6{
-                    .paraBox{
-                        width: 48vw;
-                        height: 100%;
-                        right: 0;
-                        left: auto;
-                        top: 0;
-                        background-color: rgba(255, 255, 255, 0.384);
-                        & :nth-child(1){
-                            width: 25vw;
-                            top: 4vw;
-                            left: -25vw;
-                        }
-                        & :nth-child(2){
-                            width: 23vw;
-                            top: 2vw;
-                            left: 2.5vw;
-                        }
-                        & :nth-child(3){
-                            width: 75%;
-                            left: 0.6vw;
-                            top:21.5vw;
-                        }
-                    }
-                }
-                .slide7{
-                    .paraBox{
-                        width: 48vw;
-                        height: 100%;
-                        right: 0;
-                        left: auto;
-                        top: 0;
-                        background-color: rgba(255, 255, 255, 0.384);
-                        & :nth-child(1){
-                            width: 25vw;
-                            top: 4vw;
-                            left: -25vw;
-                        }
-                        & :nth-child(2){
-                            width: 75%;
-                            top: 2vw;
-                            left: 1.5vw;
-                        }
-                        & :nth-child(3){
-                            width: 75%;
-                            left: 1.5vw;
-                            top:13vw;
-                        }
-                    }
-                }
-                .slide8{
-                    
-                    .paraBox{
-                        & :nth-child(1){
-                            right : 11vw;
-                            top: 4.5vw;
-                            width: 24vw;
-                        }
-                        & :nth-child(2){
-                            right : 11vw;
-                            top: 12vw;
-                            width: 30vw;
-                        }
-                    }
-                }
-                .slide9{
-                    
-                    .paraBox{
-                        & :nth-child(1){
                             left: 0;
                             right: 0;
                             margin: 0 auto;
-                            top: 4.5vw;
-                            width: 65%;
+                      
+                            top:80vw;
+                            width: 40vw;
                         }
-                        & :nth-child(2){
-                            bottom: 1.8vw;
-                            left: 18.5vw;
-                            width: 50.5vw;
+                        & :nth-child(4){
+                            left: 0;
+                            right: 0;
+                            margin: 0 auto;
+                         
+                            top: 105vw;
+                            width:60vw;
                         }
                     }
                 }
-                .slide10{
-                    
-                    .paraBox{
-                        & :nth-child(1){
-                            right : 11vw;
-                            top: 4.5vw;
-                            width: 28vw;
+              
+            }
+        }
+    }
+    .twelve-page{
+        .normal-page-bg{
+            img{
+                object-position: 13% center;
+            }
+        }
+        &-para{
+           
+            & :nth-child(3){
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                top: 15vw;
+                width:48%;
+               filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+            }
+            & :nth-child(2){
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+               top: 35vw;
+                width: 75%;
+                filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+            }
+          
+        }
+    }
+    .thirdteen-page{
+        
+        &-para{
+           
+            & :nth-child(1){
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+              
+                top: 85vw;
+                width:70vw;
+               filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+            }
+            & :nth-child(2){
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                top: 96vw;
+                width: 45vw;
+                filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+            }
+            & :nth-child(3){
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                top: 105vw;
+                width: 55vw;
+                filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+            }
+            & :nth-child(4){
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                top: 117vw;
+                width: 65vw;
+                filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+            }
+        }
+    }
+    @media all and (max-width:500px){
+        .normal-page{
+            position: relative;
+            width: 100%;
+            height: 200vw;
+            &-bg{
+                width: 100%;
+                height: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center 100%;
+                }
+                span{
+                    position: absolute;
+                    left: 2.5vw;
+                    bottom: 1vw;
+                    font-size: 3.2vw;
+                    font-weight: 600;
+                    color: #fff;
+                    filter: drop-shadow(0 0 2.5px #000);
+                }
+            }
+            &-para{
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: 2;
+                img{
+                    position: absolute;
+                }
+            }
+        }
+        .swiper-page{
+            width: 100%;
+            height:200vw;
+            .swiper{
+                width: 100%;
+                height: 100%;
+                position: relative;
+                .swiper-wrapper{
+                    width: 100%;
+                    height: 100%;
+                    .swiper-slide{
+                        position: relative;
+                        width: 100%;
+                        height: 100%;
+                        .imgBox{
+                            width: 100%;
+                            height: 100%;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                         
+                            }
+                            span{
+                                position: absolute;
+                                left: 2.5vw;
+                                bottom: 3vw;
+                                font-size: 3.2vw;
+                                font-weight: 600;
+                                color: #fff;
+                                filter: drop-shadow(0 0 2.5px #000);
+                            }
                         }
-                        & :nth-child(2){
-                            right : 11vw;
-                            top: 11.5vw;
-                            width: 30vw;
+                        .paraBox{
+                            display: none;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            width: 100%;
+                            height: 100%;
+                            img{
+                                position: absolute;
+                            }
+                        }
+                    }
+                   
+                }
+                .navigation{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    height: fit-content;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto 0;
+                    padding:2.5vw;
+                    z-index: 3;
+                    span{
+                        font-size: 7vw;
+                        pointer-events: none;
+                    }
+                    .prev{
+                        cursor: pointer;
+                      
+                    }
+                    .next{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .swiper-page{
+            width: 100%;
+            height:148vw;
+            .swiper{
+                width: 100%;
+                height: 100%;
+                position: relative;
+                .swiper-wrapper{
+                    width: 100%;
+                    height: 100%;
+                    .swiper-slide{
+                        position: relative;
+                        width: 100%;
+                        height: 100%;
+                        .imgBox{
+                            width: 100%;
+                            height: 100%;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                         
+                            }
+                            span{
+                                position: absolute;
+                                left: 2.5vw;
+                                bottom: 3vw;
+                                font-size: 2vw;
+                                font-weight: 600;
+                                color: #fff;
+                            }
+                        }
+                        .paraBox{
+                            display: none;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            width: 100%;
+                            height: 100%;
+                            img{
+                                position: absolute;
+                            }
+                        }
+                    }
+                   
+                }
+                .navigation{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    height: fit-content;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto 0;
+                    padding:2.5vw;
+                    z-index: 3;
+                    span{
+                        font-size: 7vw;
+                        pointer-events: none;
+                    }
+                    .prev{
+                        cursor: pointer;
+                      
+                    }
+                    .next{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    
+        .first-page{
+          
+             &-para{
+                    width: 100%;
+                 & :nth-child(1){
+                     position: absolute;
+                
+                     top: 15vw;
+                     width: 55vw;
+                 }
+                 & :nth-child(2){
+            
+                     top: 40vw;
+                     width: 80vw;
+                 }
+                 & :nth-child(3){
+               
+                     top:55vw;
+                     width: 50vw;
+                 }
+                 & :nth-child(4){
+            
+                     top: 70vw;
+                     width: 95vw;
+                 }
+                 & :nth-child(5){
+               
+                     top: 87vw;
+                     width: 65vw;
+                 }
+    
+                 img,svg{
+                    left: 0 !important;
+                    right: 0 !important;
+                    margin: 0 auto;
+                 }
+             }
+         }
+         .second-page{
+       
+            &-para{
+            
+                img{
+                    position: absolute;
+                    right: 0;
+                    left: 0;
+                    margin: 0 auto;
+                }
+                & :nth-child(3){
+                    top: 7vw;
+                    width: 60%;
+                }
+                & :nth-child(4){
+                    bottom: 15vw;
+                    width: 95%;
+                }
+            }
+        }
+        .third-page{
+            height: auto;
+            &-para{
+                img{
+                    position: absolute;
+                    right: 0;
+                    left: 0;
+                    margin: 0 auto;
+                }
+               & :nth-child(3){
+                    width: 85%;
+                    top: 8vw;
+               }
+               & :nth-child(4){
+                    width: 85%;
+                    top: 28vw;
+                    background-color: #fff;
+                    padding: 4vw 1vw 10vw;
+                    border-radius: 40px;
+               }
+            }
+        }
+        .forth-page{
+            height: auto;
+            .normal-page-bg{
+                img{
+                    object-position: right center;
+                }
+            }
+            &-para{
+                & :nth-child(1){
+                    width: 55vw;
+                    left: 2vw;
+                    top: 6vw;
+                }
+                & :nth-child(3){
+                    width: 65vw;
+                    left:4.5vw;
+                    top: 35vw;
+                }
+            }
+        }
+        .fifth-page{
+            height: auto;
+            &-para{
+                img{
+                    position: absolute;
+                    right: 0;
+                    left: 0;
+                    margin: 0 auto;
+                }
+               & :nth-child(3){
+                    width:40%;
+                    top: 3vw;
+               }
+               & :nth-child(4){
+                    width: 90%;
+                    top: 33vw;
+                    background-color: #fff;
+                    padding: 6vw 4vw 6vw;
+                    border-radius: 20px;
+               }
+            }
+        }
+        .sixth-page{
+            .normal-page-bg{
+                img{
+                    object-position: 30% center;
+                }
+            }
+            &-para{
+                img{
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                }
+                & :nth-child(1){
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    width: 85%;
+                    top: 20vw;
+                }
+                & :nth-child(3){
+                    width: 90%;
+                    top: 45vw;
+                    background-color: rgba(255, 255, 255, 0.589);
+                    padding: 4vw 5vw 4vw;
+                    border-radius: 40px;
+                }
+            }
+        }
+        .seventh-page{
+            overflow-x: auto;
+            overflow-y: hidden;
+     
+            .normal-page-bg{
+                width: fit-content;
+                .imgBox{
+                    width: fit-content;
+              
+                    img{
+                        position: relative;
+                        height: 200vw;
+                        width: auto;
+                        object-fit: contain;
+            
+                    }
+                }
+                
+            }
+            &-para{
+           
+                img{
+                    position: absolute;
+                    right: 0;
+                    left: 0;
+                    margin: 0 auto;
+                }
+               & :nth-child(2){
+                    width: 75%;
+                    top: 20vw;
+                    left: 57vw;
+               }
+               & :nth-child(3){
+                width: 66%;
+                top: 32vw;
+                left: 57vw;
+                filter: drop-shadow(0 0 4px #000);
+           }
+             
+            }
+        }
+        .eighth-page{
+            .swiper{
+                .swiper-wrapper{
+                    .slide1{
+                        .paraBox{
+                            display: block;
+                            & :nth-child(3){
+                                top: 7vw;
+                            }
+                            & :nth-child(4){
+                                width: 45vw;
+                                top: 30vw;
+                                border-radius: 20px;
+                            }
+                        }
+                    }
+                  
+                   
+                }
+            }
+        }
+        .ninth-page{
+            .swiper{
+                .swiper-wrapper{
+                    
+                    .slide1{
+                        .imgBox{
+                            span{
+                                color: #B47B5B;
+                                bottom: 83vw;
+                            }
+                        }
+                        .paraBox{
+                            display: block;
+                        
+                            & :nth-child(4){
+                               
+                                width: 70vw;
+                            }
+                        }
+                    }
+                  
+                }
+            }
+        }
+        .tenth-page{
+            .swiper{
+                .swiper-wrapper{
+                    .swiper-slide{
+                        .imgBox{
+                            span{
+                                bottom: 89vw;
+                            }
+                        }
+                    }
+                    .slide1{
+                        .imgBox{
+                            span{
+                                color: #B47B5B;
+                                bottom: 83vw;
+                            }
+                        }
+                        .paraBox{
+                            display: block;
+                           
+                            & :nth-child(4){
+                               top: 109vw;
+                                width: 74vw;
+                            }
+                        }
+                    }
+                    .slide2{
+                       
+                        .paraBox{
+                            width: 48vw;
+                            height: 100%;
+                            right: 0;
+                            left: auto;
+                            top: 0;
+                            background-color: rgba(255, 255, 255, 0.384);
+                            
+                            & :nth-child(1){
+                                left: 2vw;
+                                top: 0;
+                                bottom: 0;
+                                margin: auto 0;
+                                width: 32vw;
+                            }
+                          
+                        }
+                    }
+                    .slide3{
+                       
+                        .paraBox{
+                            width: 60vw;
+                            height: 100%;
+                            right: 0;
+                            left: auto;
+                            top: 0;
+                          
+                            
+                            & :nth-child(1){
+                                left: 5vw;
+                                bottom:2vw;
+                                width: 39vw;
+                            }
+                          
+                        }
+                    }
+                    .slide4{
+                       
+                        .paraBox{
+                            & :nth-child(1){
+                                right: 14vw;
+                                top: 18.5vw;
+                                width: 14vw;
+                            }
+                            & :nth-child(2){
+                                right: 14vw;
+                                top: 27vw;
+                                width: 23vw;
+                            }
+                        }
+                    }
+                    .slide5{
+                       
+                        .paraBox{
+                            & :nth-child(1){
+                               right: 37vw;
+                                top: 3vw;
+                                width: 32vw;
+                            }
+                            & :nth-child(2){
+                                right: 9vw;
+                                top:4vw;
+                                width: 20vw;
+                            }
+                            & :nth-child(3){
+                                right: 9vw;
+                                top:11vw;
+                                width: 20vw;
+                            }
+                            & :nth-child(4){
+                                right: 9vw;
+                                top:38vw;
+                                width: 20vw;
+                            }
+                        }
+                    }
+                    .slide6{
+                        .paraBox{
+                            width: 48vw;
+                            height: 100%;
+                            right: 0;
+                            left: auto;
+                            top: 0;
+                            background-color: rgba(255, 255, 255, 0.384);
+                            & :nth-child(1){
+                                width: 25vw;
+                                top: 4vw;
+                                left: -25vw;
+                            }
+                            & :nth-child(2){
+                                width: 23vw;
+                                top: 2vw;
+                                left: 2.5vw;
+                            }
+                            & :nth-child(3){
+                                width: 75%;
+                                left: 0.6vw;
+                                top:21.5vw;
+                            }
+                        }
+                    }
+                    .slide7{
+                        .paraBox{
+                            width: 48vw;
+                            height: 100%;
+                            right: 0;
+                            left: auto;
+                            top: 0;
+                            background-color: rgba(255, 255, 255, 0.384);
+                            & :nth-child(1){
+                                width: 25vw;
+                                top: 4vw;
+                                left: -25vw;
+                            }
+                            & :nth-child(2){
+                                width: 75%;
+                                top: 2vw;
+                                left: 1.5vw;
+                            }
+                            & :nth-child(3){
+                                width: 75%;
+                                left: 1.5vw;
+                                top:13vw;
+                            }
+                        }
+                    }
+                    .slide8{
+                        
+                        .paraBox{
+                            & :nth-child(1){
+                                right : 11vw;
+                                top: 4.5vw;
+                                width: 24vw;
+                            }
+                            & :nth-child(2){
+                                right : 11vw;
+                                top: 12vw;
+                                width: 30vw;
+                            }
+                        }
+                    }
+                    .slide9{
+                        
+                        .paraBox{
+                            & :nth-child(1){
+                                left: 0;
+                                right: 0;
+                                margin: 0 auto;
+                                top: 4.5vw;
+                                width: 65%;
+                            }
+                            & :nth-child(2){
+                                bottom: 1.8vw;
+                                left: 18.5vw;
+                                width: 50.5vw;
+                            }
+                        }
+                    }
+                    .slide10{
+                        
+                        .paraBox{
+                            & :nth-child(1){
+                                right : 11vw;
+                                top: 4.5vw;
+                                width: 28vw;
+                            }
+                            & :nth-child(2){
+                                right : 11vw;
+                                top: 11.5vw;
+                                width: 30vw;
+                            }
                         }
                     }
                 }
             }
         }
+        
+        .twelve-page{
+            
+            .normal-page-bg{
+                overflow: hidden;
+                img{
+                    object-position: 18% center;
+                    width: 100%;
+                 
+                }
+            }
+             &-para{
+                
+                 & :nth-child(3){
+                    top: 25vw;
+                 }
+                 & :nth-child(2){
+                    top: 48vw;
+                    width: 85%;
+                 }
+               
+             }
+         }
+         .thirdteen-page{
+            height: auto;
+            &-para{
+               
+                & :nth-child(1){
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                  
+                    top: 95vw;
+                    width:70vw;
+                   filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+                }
+                & :nth-child(2){
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    top: 106vw;
+                    width: 45vw;
+                    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+                }
+                & :nth-child(3){
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    top: 115vw;
+                    width: 55vw;
+                    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+                }
+                & :nth-child(4){
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    top: 127vw;
+                    width: 65vw;
+                    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.795));
+                }
+            }
+        }
+      
     }
 }
