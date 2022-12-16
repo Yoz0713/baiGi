@@ -230,6 +230,9 @@
   top: 2.5vw;
 }
 
+.eighth-page .swiper .swiper-wrapper .swiper-slide .paraBox :nth-child(1) {
+  filter: drop-shadow(0 0 4px #000);
+}
 .eighth-page .swiper .swiper-wrapper .slide1 .paraBox :nth-child(1) {
   left: 26.2vw;
   top: 17vw;
@@ -251,6 +254,9 @@
   width: 42vw;
 }
 
+.ninth-page .swiper .swiper-wrapper .swiper-slide .paraBox :nth-child(1) {
+  filter: drop-shadow(0 0 4px #000);
+}
 .ninth-page .swiper .swiper-wrapper .slide1 .imgBox span {
   color: #B47B5B;
 }
@@ -355,6 +361,9 @@
   width: 30vw;
 }
 
+.tenth-page .swiper .swiper-wrapper .swiper-slide .paraBox :nth-child(1) {
+  filter: drop-shadow(0 0 4px #000);
+}
 .tenth-page .swiper .swiper-wrapper .slide1 .imgBox span {
   color: #B47B5B;
 }
@@ -1402,12 +1411,12 @@
   .seventh-page-para :nth-child(2) {
     width: 75%;
     top: 20vw;
-    left: 57vw;
+    left: 116vw;
   }
   .seventh-page-para :nth-child(3) {
     width: 66%;
     top: 32vw;
-    left: 57vw;
+    left: 116vw;
     filter: drop-shadow(0 0 4px #000);
   }
   .eighth-page .swiper .swiper-wrapper .slide1 .paraBox {

@@ -252,6 +252,13 @@
 .eighth-page{
     .swiper{
         .swiper-wrapper{
+            .swiper-slide{
+                .paraBox{
+                    & :nth-child(1){
+                        filter: drop-shadow(0 0 4px #000);
+                    }
+                }
+            }
             .slide1{
                 .paraBox{
                     & :nth-child(1){
@@ -287,6 +294,13 @@
 .ninth-page{
     .swiper{
         .swiper-wrapper{
+            .swiper-slide{
+                .paraBox{
+                    & :nth-child(1){
+                        filter: drop-shadow(0 0 4px #000);
+                    }
+                }
+            }
             .slide1{
                 .imgBox{
                     span{
@@ -447,6 +461,13 @@
 .tenth-page{
     .swiper{
         .swiper-wrapper{
+            .swiper-slide{
+                .paraBox{
+                    & :nth-child(1){
+                        filter: drop-shadow(0 0 4px #000);
+                    }
+                }
+            }
             .slide1{
                 .imgBox{
                     span{
@@ -1719,12 +1740,12 @@
                & :nth-child(2){
                     width: 75%;
                     top: 20vw;
-                    left: 57vw;
+                    left:116vw;
                }
                & :nth-child(3){
                 width: 66%;
                 top: 32vw;
-                left: 57vw;
+                left:116vw;
                 filter: drop-shadow(0 0 4px #000);
            }
              
